@@ -4,7 +4,10 @@ while True:
     x = int(input("Porfavor ingrese un numero entre el 1 y el 10: "))
     if x <11 and x >0:
         for i in range (1, 13):
-            print(f"{i} x {x} = {i*x}")
+            print(f""""
+Tabla de {i}""")
+            for j in range(1 , x+1 ):
+                print(f"{i} x {x} = {i*x}")
         break
     else:
         print("Error intente denuevo...")
